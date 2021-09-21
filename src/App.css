@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+html,
+body {
+height: 100%;
+width: 100%;
+}
+
+header, .main-heading  {
+display: flex;
+justify-content: space-between;
+margin-bottom: 40px;
+}
+
+.left-side-nav > div {
+  position: relative;
+  top: 20px;
+  line-height: 90%;
+  margin-left: 10px;
+}
+
+header h1 {
+  font-family: 'Ephesis', cursive;
+  font-size: 30px;
+}
+
+header h6 {
+  color: rgb(105, 105, 105);
+}
+
+.logo {
+  position: relative;
+  top: 10px;
+  height: 40px;
+}
+
+.center {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.recipe {
+  text-indent: 23px;
+}
+
+.recipe > p {
+  margin: 30px;
+  color: rgb(105, 105, 105);
+}
+
+.main-heading-left,
+.main-heading-right {
+display: flex;
+flex-direction: column;
+align-self: flex-end;
+}
+
+.print {
+width: 40px;
+}
+
+.ingredient-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  list-style-type: none;
+  width: 80%;
+  height: 300px;
+  position: relative;
+  left: 10%;
+  margin-bottom: 30px;
+  font-family: 'Klee One', cursive;
+ }
+
+.ingredient-item {
+  position: relative;
+  left: 50px;
+ }
+
+input {
+margin-right: 10px;
+}
+
+.about-me-section {
+  display: grid;
+  grid-template-columns: 1fr 8fr 2fr;
+  width: 80%;
+  position: relative;
+  left: 10%;
+  margin-top: 30px;
+}
+
+.about-me-pic {
+  display: flex;
+  align-items: center;
+}
+
+.about-me-pic > img {
+  width: 80px;
+  height: auto;
+}
+
+.about-me-text {
+  display: flex;
+ flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 1.3em;
+}
+
+
+.about-me-text > p {
+  color: rgb(105, 105, 105);
+
+}
+
+.about-me-button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.about-me-button > button {
+  height: 50%;
+  width: 80%;
+  color: white;
+  border: none;
+  background-color: rgb(236, 134, 99);
+  cursor: pointer;
+}
+
+.left-side-nav {
+  display: flex;    
+}
+
+.icon{
+ float: left;
+  margin-top: 10px;
+}
+
+.icon:nth-child(7) {
+  margin-left: 10px;
+}
+
+.hr{
+border: none;
+border-top-color: lightgray;
+border-top-style: groove;
+border-top-width: 10px;
+height: 20px;
+margin-top: 10px;
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  color: rgb(180, 180, 180);
+  margin-bottom: 30px;
+}
+
+.footer-section > img {
+  margin-bottom: 20px;
+}
+
