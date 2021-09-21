@@ -1,4 +1,4 @@
-export default [
+const ingredients = [
     {
         name: 'milk',
         amount: '1 1/2 cups'
@@ -48,3 +48,5 @@ export default [
         amount: '1 cup'
     }
 ]
+
+export default ingredients;
